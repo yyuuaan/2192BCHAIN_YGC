@@ -4,23 +4,21 @@ function BibleQuiz() {
             <h1>The Bible Quiz</h1>
             <h2>The Bible consists of the Old and New Testaments. </h2>
             <AnswerColor
-                visibility={true}
                 correction={'correct'} />
             <h2>Moses led the Israelites out of Egypt</h2>
             <AnswerColor
-                visibility={true}
                 correction={'correct'} />
             <h2>The Sermon on the Mount is found in the Book of Luke</h2>
             <AnswerColor
-                visibility={true}
                 correction={'incorrect'} />
         </div>
     )
 }
 
+const vis = false;
+
 
 function AnswerColor(props) {
-    var vis = props.visibility;
     var cor = props.correction;
     if (vis === true){
         if (cor == 'correct') {
