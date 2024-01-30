@@ -15,7 +15,7 @@ function BibleQuiz() {
     )
 }
 
-const vis = false;
+const vis = true;
 
 
 function AnswerColor(props) {
