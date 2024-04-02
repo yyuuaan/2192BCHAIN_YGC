@@ -1,0 +1,1 @@
+Sepolia is the recommended default testnet by Ethereum core developers for smart contract application development. Sepolia is the recommended default testnet for smart contract development.
